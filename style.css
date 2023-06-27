@@ -1,0 +1,57 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.responsive-img{
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+}
+.slider{
+    height: 100vh;
+}
+
+.slides{
+    height: 100vh;
+}
+.home-page{
+    height: 100vh;
+}
+
+
+h1,h2,a{
+    color: black;
+}
+
+h5{
+    font-size: bolder;
+}
+
+@media screen and (max-width:400px){
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:750px){
+    h5{
+        font-size: 20px;
+    
+    }
+    
+    p{
+        font-size: 15px;
+    }
+
+    #about{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:650px){
+    .responsive-img{
+        width: 200px;
+        height: 300px;
+        border-radius: 30px;
+    }
+}
