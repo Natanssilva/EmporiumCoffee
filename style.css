@@ -1,0 +1,148 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+
+#home-page{
+    height: 100vh;
+}
+
+#home-page>nav{
+    position: fixed;
+}
+
+.section .responsive-img{
+    width: 400px;
+    height: 650px;
+    border-radius: 10px;
+}
+.slider{
+    height: 100vh;
+}
+
+.slides{
+    height: 100vh;
+}
+.home-page{
+    height: 100vh;
+}
+
+
+h1,h2,a{
+    color: black;
+}
+
+h5{
+    font-size: bolder;
+}
+
+
+
+article >h2{
+    padding-top: 10vh;
+}
+
+div.card{
+    border-radius: 10px;
+    padding: 10px;
+    width: 350px;
+    height: 400px;
+}
+
+div.card img{
+    transition: 1s;
+}
+div.card img:hover{
+    transform: scale(1.2);
+}
+
+#products-page{
+    position: relative;
+    margin: 18%;
+}
+
+.products-mobile{
+    display: none;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width:400px){
+    h2{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:750px){
+    h5{
+        font-size: 20px;
+    
+    }
+    
+    p{
+        font-size: 15px;
+    }
+
+    #about{
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:650px){
+   .section .responsive-img{
+        width: 200px;
+        height: 300px;
+        border-radius: 30px;
+    }
+
+    p{
+        margin: 5%;
+    }
+}
+
+@media screen and (max-width:400px){
+    article >h2{
+        padding-top: 0;
+        font-size: 2rem;
+    }
+    
+ }
+
+ @media screen and (min-width:800px){
+    p{
+        margin: 5%;
+    }
+
+ }
+
+ @media screen and (max-width:1600px){
+    #products-page{
+        margin: 8%;
+    }
+ }
+ 
+ @media screen and (max-width:1270px){
+    #products-page{
+        margin: 4%;
+    }
+ }
+ 
+ @media screen and (max-width:1180px){
+   .products-mobile{
+    display: inline-block;
+    
+   }
+    .products-web{
+        display: none;
+    }
+  
+    }
+
+   
+ 
+ 
+
+
